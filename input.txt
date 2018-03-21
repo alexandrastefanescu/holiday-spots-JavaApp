@@ -1,0 +1,22 @@
+NUME, ORAS, PRET MEDIU/ZI, COLECTIE ACTIVITATI, PERIOADA VACANTA
+HolidayInn; Bucuresti, Romania; 185; Inot, Tenis, Spa; 25/03-06/04;
+0           1          2        3    4     5      6    7
+activitati = arraylist
+toate locatiile = hashmap
+FourSeasons Sibiu 174
+Cluj
+Brasov
+Constanta
+Predeal
+Sinaia
+Oradea
+Bacau
+Braila
+Buzau
+Craiova
+Cernavoda
+Timisoara
+Iasi
+Deva
+Arad
+Sighisoara
