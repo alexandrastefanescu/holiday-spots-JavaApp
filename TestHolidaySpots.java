@@ -11,17 +11,48 @@
 // iar cele de iesire sunt printate intr-un alt fisier, acesta fiind
 // al doilea argument command line. In cazul exceptiilor, acestea sunt
 // luate in considerare prin folosirea "try-catch"-urilor.
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class TestHolidaySpots
 {
+  private static HashMap<String,Location> mapOfLocations
+    = new HashMap<String, Location>();
+
   public static void main(String[] args)
   {
     //
-    FileReader input = null;
+    BufferedReader input = null;
     try
     {
+      input = new BufferedReader(new FileReader("input.txt"));
+
+      String currentLine;
+      String[] arrayElements;
+      while((currentLine = input.readLine()) != null)
+      {
+        arrayElements = currentLine.split(" ");
+        int length = arrayElements.length;
+        Country country = new Country(arrayElements[1]);
+        District district = new District(arrayElements[2], country);
+        City city = new City(arrayElements[3], district);
+        Location location = new Location(arrayElements[0], city,
+                            Double.parseDouble(arrayElements[4]),
+                            readDate(arrayElements[length - 2]),
+                            readDate(arrayElements[length - 1]));
+        for (int index = 5; index < length - 2; index++)
+        {
+          location.addNewActivity(arrayElements[index]);
+        } // for
+        mapOfLocations.put(location.getLocationName(), location);
+      } // while
 
     } // try
     catch (Exception exception)
@@ -36,5 +67,15 @@ public class TestHolidaySpots
     } // finally
   } // main
 
+  // Metoda ce ajuta la citirea unei date si formeaza o noua data.
+  // Am presupus ca toate posibilitatile de vacante au loc in acest an,
+  // astfel incat datele de intrare vor fi intervale de forma 'zi/luna'.
+  private static Date readDate(String newDate)
+  {
+    String[] dateElements = newDate.split("/");
+    int day = Integer.parseInt(dateElements[0]);
+    int month = Integer.parseInt(dateElements[1]);
+    return new Date(2018, month, day);
+  } // readDate
 
 } // class TestHolidaySpots

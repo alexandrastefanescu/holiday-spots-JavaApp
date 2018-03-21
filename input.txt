@@ -1,8 +1,5 @@
-NUME, ORAS, PRET MEDIU/ZI, COLECTIE ACTIVITATI, PERIOADA VACANTA
-HolidayInn; Bucuresti, Romania; 185; Inot, Tenis, Spa; 25/03-06/04;
-0           1          2        3    4     5      6    7
-activitati = arraylist
-toate locatiile = hashmap
+NUME, TARA, JUDET, ORAS, PRET MEDIU/ZI, COLECTIE ACTIVITATI, PERIOADA VACANTA
+HolidayInn; Romania, Municipiu, Bucuresti; 185; Inot, Tenis, Spa; 25/03, 06/04;
 FourSeasons Sibiu 174
 Cluj
 Brasov
