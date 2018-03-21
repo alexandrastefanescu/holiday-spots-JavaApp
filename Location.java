@@ -55,4 +55,18 @@ public class Location
     return (double) meanPriceDay * 10;
   } // priceFor10Days
 
+  // Metoda ce formateaza modul in care locatia va fi afisata pe ecran
+  // in urma cautarilor.
+  @Override
+  public String toString()
+  {
+    String activitiesToPrint = "";
+    for (int index = 0; index < activities.size(); index++)
+      activitiesToPrint += activities.get(index) + " ";
+    return "\nNume: " + locationName + "\n" + "Locatie: " + city.getCityName()
+          + "\n" + "Pret mediu pe zi: " + meanPriceDay + "\n" + "Perioada: "
+          + startDate + " - " + endDate + "\n" + "Activitati: "
+          + activitiesToPrint + "\n";
+  } // toString
+
 } // class Location

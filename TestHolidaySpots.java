@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import java.util.Scanner;
 
 public class TestHolidaySpots
 {
@@ -54,6 +54,11 @@ public class TestHolidaySpots
         mapOfLocations.put(location.getLocationName(), location);
       } // while
 
+      Scanner scanner = new Scanner(System.in);
+      System.out.print("Alege locatia despre care vrei sa afli: ");
+      String searchLocation = scanner.next();
+      System.out.println(mapOfLocations.get(searchLocation));
+
     } // try
     catch (Exception exception)
     {
@@ -75,7 +80,8 @@ public class TestHolidaySpots
     String[] dateElements = newDate.split("/");
     int day = Integer.parseInt(dateElements[0]);
     int month = Integer.parseInt(dateElements[1]);
-    return new Date(2018, month, day);
+    int year = Integer.parseInt(dateElements[2]);
+    return new Date(year + 100, month - 1, day);
   } // readDate
 
 } // class TestHolidaySpots
