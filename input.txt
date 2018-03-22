@@ -4,3 +4,10 @@ ThePlaza SUA NewYork NewYork 1326 Parade Spa Vizite 13/02/19 17/02/19
 Generator Franta Ile-de-France Paris 267 Concerte Petreceri Muzee 03/01/19 15/01/19
 Renoir Franta Provence Marseille 745 Plaja Plimbari Spa 30/06/18 15/07/18
 Mansion Belgia Fallowfield Antwerp 103 Festival Drumetii Meditatie 17/09/18 05/10/18
+VITA Romania Municipiu Bucuresti 1085 Inot Tenis Spa 25/03/18 06/04/18
+TravelLodge Romania Municipiu Bucuresti 1843 Inot Tenis Spa 25/03/18 06/04/18
+Sunwaves Romania Municipiu Bucuresti 479 Inot Tenis Spa 25/03/18 06/04/18
+Airfield Romania Municipiu Bucuresti 309 Inot Tenis Spa 25/03/18 06/04/18
+ThePlaza2 Romania NewYork NewYork 1326 Parade Spa Vizite 13/02/19 17/02/19
+Generator2 Romania Ile-de-France Paris 267 Concerte Petreceri Muzee 03/01/19 15/01/19
+Renoir2 Romania Provence Marseille 745 Plaja Plimbari Spa 30/06/18 15/07/18

@@ -23,4 +23,9 @@ public class City
     return district;
   } // getCityDistrict
 
+  public String getName()
+  {
+    return nameOfCity;
+  } // getName
+
 } // City

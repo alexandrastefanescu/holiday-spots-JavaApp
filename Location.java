@@ -26,6 +26,7 @@ public class Location implements Comparable<Location>
     endDate = requiredEnd;
   } // constructor
 
+  // Metoda ce permite accesul la numele locatiei dintr-o clasa separata.
   public String getLocationName()
   {
     return locationName;
