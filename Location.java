@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.time.temporal.ChronoUnit;
 
-public class Location
+public class Location implements Comparable<Location>
 {
   private String locationName;
   private City city;
@@ -55,6 +55,29 @@ public class Location
     return (double) meanPriceDay * 10;
   } // priceFor10Days
 
+  // Override pentru metoda compareTo(), astfel incat sa sorteze locatiile in
+  // functie de unde este cel mai ieftin sa practici o activitate 10 zile.
+  @Override
+  public int compareTo(Location otherLocation)
+  {
+    if (this.priceFor10Days() > otherLocation.priceFor10Days())
+      return 1;
+    else if (this.priceFor10Days() == otherLocation.priceFor10Days())
+      return 0;
+    else
+      return -1;
+  } // compareTo
+
+  // Pentru consistenta, override pentru metoda equals().
+  @Override
+  public boolean equals(Object otherLocation)
+  {
+    if (otherLocation instanceof Location)
+      return compareTo((Location)otherLocation) == 0;
+    else
+      return super.equals(otherLocation);
+  } // equals
+
   // Metoda ce formateaza modul in care locatia va fi afisata pe ecran
   // in urma cautarilor.
   @Override
@@ -68,5 +91,20 @@ public class Location
           + startDate + " - " + endDate + "\n" + "Activitati: "
           + activitiesToPrint + "\n";
   } // toString
+
+  // Metoda ce formateaza modul in care informatiile vor fi afisate pe ecran
+  // in cazul cautarii dupa pretul total pentru a merge intr-o anumita locatie.
+  public String getInfoTotalPrice()
+  {
+    return toString() + "Pretul total pentru intreaga perioada este: "
+           + totalPrice();
+  } // getInfoTotalPrice
+
+  // Metoda ce formateaza modul in care informatiile vor fi afisate pe ecran
+  // in cazul cautarii dupa pretul pe 10 zile pentru a merge intr-o locatie.
+  public String getInfoPrice10Days()
+  {
+    return toString() + "Pretul pentru 10 zile este: " + priceFor10Days();
+  } // getInfoPrice10Days
 
 } // class Location
