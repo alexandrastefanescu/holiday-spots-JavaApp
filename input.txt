@@ -1,13 +1,35 @@
 HolidayInn Romania Municipiu Bucuresti 185 Inot Tenis Spa 25/03/18 06/04/18
-FourSeasons UK Lancashire Manchester 463 Drumetii Cricket 28/05/18 13/06/18
+FourSeasons UK Lancashire Manchester 463 Drumetii Ciclism 28/05/18 13/06/18
 ThePlaza SUA NewYork NewYork 1326 Parade Spa Vizite 13/02/19 17/02/19
 Generator Franta Ile-de-France Paris 267 Concerte Petreceri Muzee 03/01/19 15/01/19
 Renoir Franta Provence Marseille 745 Plaja Plimbari Spa 30/06/18 15/07/18
 Mansion Belgia Fallowfield Antwerp 103 Festival Drumetii Meditatie 17/09/18 05/10/18
-VITA Romania Municipiu Bucuresti 1085 Inot Tenis Spa 25/03/18 06/04/18
-TravelLodge Romania Municipiu Bucuresti 1843 Inot Tenis Spa 25/03/18 06/04/18
-Sunwaves Romania Municipiu Bucuresti 479 Inot Tenis Spa 25/03/18 06/04/18
-Airfield Romania Municipiu Bucuresti 309 Inot Tenis Spa 25/03/18 06/04/18
-ThePlaza2 Romania NewYork NewYork 1326 Parade Spa Vizite 13/02/19 17/02/19
-Generator2 Romania Ile-de-France Paris 267 Concerte Petreceri Muzee 03/01/19 15/01/19
-Renoir2 Romania Provence Marseille 745 Plaja Plimbari Spa 30/06/18 15/07/18
+SummerWell Romania Municipiu Bucuresti 1346 Plimbari Concerte 14/08/18 06/09/18
+Coachella SUA Nevada LasVegas 2034 Drumetii Concerte Meditatie 26/07/19 05/08/19
+GrandHotel UK Irlanda Dublin 408 Pescuit Vizite 13/04/19 27/04/19
+TravelLodge Romania Municipiu Bucuresti 1843 Golf Tururi Alergat 02/06/19 13/06/19
+LesMagots Franta Bourgogne Dijon 193 Ciclism Vizite 27/04/19 11/05/19
+Lollapalloza SUA Missouri Kansas 1031 Teatru Filme Muzee 16/02/19 27/02/19
+Sunwaves Romania Municipiu Bucuresti 479 Inot Biliard Bowling 19/07/18 30/07/18
+TheBridge Romania Cluj ClujNapoca 737 Festival Teatru Concerte 09/08/18 20/08/18
+ChocoPlace Belgia WestFlanders Bruges 638 Plimbari Ciclism 17/11/18 24/11/18
+Airfield Romania Municipiu Bucuresti 309 Drumetii Concerte 05/03/18 21/03/18
+Archie UK Wales Cardiff 377 Castele Muzee 03/03/19 11/03/19
+Lords Romania Constanta VamaVeche 206 Fotografie Petreceri Concerte 06/06/18 19/06/18
+Opal Belgia CapitalRegion Brussels 1427 Cricket Inot Alergat 04/04/19 15/04/19
+Soldiers UK Scotia Edinburgh 612 Drumetii Tururi Vizite 5/06/19 15/06/19
+BlueBottle SUA Massachusetts Boston 811 Vizite Plimbari 03/12/18 16/12/18
+JacquesPot Franta MalonesBains Dunkirk 436 Plimbari Plaja Inot Muzee 17/10/18 30/10/18
+Buongiorno Italia Sicilia Palermo 588 Ciclism Vizite Muzee 16/06/18 28/06/18
+CoffeePot Romania Arges CurteaDeArges 261 Plimbari Tenis 09/04/19 17/04/19
+Miznon Franta Gascogne Bordeaux 735 Ciclism Alergat 08/08/19 17/08/19
+AlabamaShake SUA Michigan Detroit 724 Concerte Drumetii 21/07/18 02/08/18
+LaVita Italia Sardinia Cagliari 904 Alergat Tenis 03/06/18 15/06/18
+HopHouse Romania Municipiu Bucuresti 476 Fotografie Teatru 14/05/19 26/05/19
+WoodStock SUA Chicago Illinois 1429 Film Plimbari Vizite 02/11/18 13/11/18
+Julietta Italia Venetia Verona 1003 Plimbari Muzee Fotografie 07/06/19 16/06/19
+Twister Belgia Wallonia Charleroi 602 Muzee Petreceri 18/04/18 25/04/18
+TheShed UK Coventry Warwick 833 Teatru Biliard Golf 14/05/19 25/05/19
+Quoattro Italia Lazio Roma 596 Tururi Muzee Vizite 12/05/18 25/05/18
+RallyPlace Romania Prahova Ploiesti 309 Biliard Bowling 19/10/19 30/10/19
+ByTheBeach UK Liverpool Formby 381 Fotografie Plaja 07/03/18 23/03/18

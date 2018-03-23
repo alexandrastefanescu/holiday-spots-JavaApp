@@ -1,0 +1,38 @@
+#!/bin/bash
+set -v
+java TestHolidaySpots << END
+1
+BlueBottle
+END
+java TestHolidaySpots << END
+1
+JacquesPot
+END
+java TestHolidaySpots << END
+3
+END
+java TestHolidaySpots << END
+2
+1
+Romania
+END
+java TestHolidaySpots << END
+2
+1
+UK
+END
+java TestHolidaySpots << END
+2
+1
+SUA
+END
+java TestHolidaySpots << END
+2
+1
+Italia
+END
+java TestHolidaySpots << END
+2
+2
+Bucuresti
+END

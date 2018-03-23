@@ -120,7 +120,7 @@ public class TestHolidaySpots
       {
         // Aici, utilizatorul isi alege criteriul de cautare.
         System.out.print("Scrie 1 daca vrei sa cauti dupa tari sau 2"
-                         + " daca vrei sa cauti dupa orase:");
+                         + " daca vrei sa cauti dupa orase: ");
         int optionPick = scanner.nextInt();
 
         // Optiunea #1 reprezinta alegerea cautarii in functie de tara.
@@ -192,6 +192,11 @@ public class TestHolidaySpots
       } // if
 
     } // try
+    catch (IndexOutOfBoundsException exception)
+    {
+      System.err.println("\nExista mai putin de 5 locatii in zona cautata: "
+                        + "\n" + exception);
+    } // catch
     catch (Exception exception)
     {
       System.err.println(exception);
@@ -200,7 +205,8 @@ public class TestHolidaySpots
     {
       try { if (input != null) input.close(); }
       catch (IOException exception)
-        { System.err.println("Input couldn't be closed " + exception); }
+        { System.err.println("Fisierul de input nu a putut fi inchis "
+                             + exception); }
     } // finally
   } // main
 
